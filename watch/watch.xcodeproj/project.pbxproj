@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		44B34B3616EF991B0057F29B /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 44B34B3516EF991B0057F29B /* TableViewController.m */; };
 		44E655DF16DD2534001E0EED /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44E655DE16DD2534001E0EED /* UIKit.framework */; };
 		44E655E116DD2534001E0EED /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44E655E016DD2534001E0EED /* Foundation.framework */; };
 		44E655E316DD2534001E0EED /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44E655E216DD2534001E0EED /* CoreGraphics.framework */; };
@@ -21,6 +22,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		44B34B3416EF991B0057F29B /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TableViewController.h; path = ../TableViewController.h; sourceTree = "<group>"; };
+		44B34B3516EF991B0057F29B /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TableViewController.m; path = ../TableViewController.m; sourceTree = "<group>"; };
 		44E655DA16DD2534001E0EED /* watch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = watch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		44E655DE16DD2534001E0EED /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		44E655E016DD2534001E0EED /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -96,6 +99,8 @@
 		44E655E516DD2534001E0EED /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				44B34B3416EF991B0057F29B /* TableViewController.h */,
+				44B34B3516EF991B0057F29B /* TableViewController.m */,
 				44E655E616DD2534001E0EED /* watch-Info.plist */,
 				44E655E716DD2534001E0EED /* InfoPlist.strings */,
 				44E655EA16DD2534001E0EED /* main.m */,
@@ -177,6 +182,7 @@
 				44E655EB16DD2534001E0EED /* main.m in Sources */,
 				44E655EF16DD2534001E0EED /* StopWatchAppDelegate.m in Sources */,
 				44E655FB16DD2534001E0EED /* StopWatchViewController.m in Sources */,
+				44B34B3616EF991B0057F29B /* TableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -293,6 +299,7 @@
 				44E6560016DD2534001E0EED /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
