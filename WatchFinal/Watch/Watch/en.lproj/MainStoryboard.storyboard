@@ -265,9 +265,9 @@
                         <subviews>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="00:00:00.0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DwS-Sh-owO">
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="152" id="gkU-6U-XDh"/>
+                                    <constraint firstAttribute="height" priority="999" constant="109" type="user" id="VYu-b5-tcN"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" name="DevanagariSangamMN" family="Devanagari Sangam MN" pointSize="48"/>
+                                <fontDescription key="fontDescription" name="GujaratiSangamMN" family="Gujarati Sangam MN" pointSize="20"/>
                                 <color key="textColor" red="0.0" green="0.50182711693548387" blue="0.0" alpha="1" colorSpace="deviceRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -310,15 +310,14 @@
                         </subviews>
                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="AQ7-30-FhS" firstAttribute="top" secondItem="dJH-Qc-rXO" secondAttribute="top" constant="164" id="DCv-eU-jBv"/>
+                            <constraint firstItem="L7w-fQ-nmO" firstAttribute="top" secondItem="DwS-Sh-owO" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="FGs-US-Gj0"/>
                             <constraint firstAttribute="trailing" secondItem="DwS-Sh-owO" secondAttribute="trailing" constant="20" symbolic="YES" type="default" id="GoP-4l-R83"/>
                             <constraint firstAttribute="trailing" secondItem="L7w-fQ-nmO" secondAttribute="trailing" constant="20" symbolic="YES" type="default" id="Kbg-KN-1dJ"/>
                             <constraint firstItem="AQ7-30-FhS" firstAttribute="leading" secondItem="dJH-Qc-rXO" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="PiU-2v-4tm"/>
-                            <constraint firstItem="AQ7-30-FhS" firstAttribute="top" secondItem="L7w-fQ-nmO" secondAttribute="top" type="default" id="XVU-Cj-IfN"/>
-                            <constraint firstItem="L7w-fQ-nmO" firstAttribute="baseline" secondItem="AQ7-30-FhS" secondAttribute="baseline" type="default" id="jEN-Ts-Lqq"/>
                             <constraint firstItem="L7w-fQ-nmO" firstAttribute="bottom" secondItem="AQ7-30-FhS" secondAttribute="bottom" type="default" id="rQ5-mM-yyY"/>
                             <constraint firstItem="DwS-Sh-owO" firstAttribute="top" secondItem="dJH-Qc-rXO" secondAttribute="top" constant="20" symbolic="YES" type="default" id="vrr-BX-4Dq"/>
                             <constraint firstItem="DwS-Sh-owO" firstAttribute="leading" secondItem="dJH-Qc-rXO" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="xyW-7W-ytG"/>
+                            <constraint firstItem="AQ7-30-FhS" firstAttribute="top" secondItem="DwS-Sh-owO" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="zsf-9E-g4m"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="StopWatch" id="VeJ-KV-vtr">
@@ -573,6 +572,6 @@
         <simulatedScreenMetrics key="destination" type="retina4"/>
     </simulatedMetricsContainer>
     <inferredMetricsTieBreakers>
-        <segue reference="MCH-fP-nL7"/>
+        <segue reference="ln6-OC-kMC"/>
     </inferredMetricsTieBreakers>
 </document>

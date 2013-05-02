@@ -16,9 +16,9 @@
 
 - (void)viewDidLoad
 {
-    //[_stopWatchLabel setFont:[UIFont fontWithName:@"DS-Digital" size:84]];
-    [super viewDidLoad];
     [_stopWatchLabel setFont:[UIFont fontWithName:@"DS-Digital" size:60]];
+    [super viewDidLoad];
+    //[_stopWatchLabel setFont:[UIFont fontWithName:@"DS-Digital" size:60]];
 	// Do any additional setup after loading the view, typically from a nib.
 }
 
