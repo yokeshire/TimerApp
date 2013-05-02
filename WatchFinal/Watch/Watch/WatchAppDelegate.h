@@ -1,14 +1,14 @@
 //
-//  StopWatchAppDelegate.h
-//  watch
+//  WatchAppDelegate.h
+//  Watch
 //
-//  Created by Jacob Ulrich on 2/26/13.
+//  Created by Jacob Ulrich on 4/30/13.
 //  Copyright (c) 2013 Jacob Ulrich. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
 
-@interface StopWatchAppDelegate : UIResponder <UIApplicationDelegate>
+@interface WatchAppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
 

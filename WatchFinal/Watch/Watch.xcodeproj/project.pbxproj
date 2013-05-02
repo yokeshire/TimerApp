@@ -1,0 +1,347 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		441F217E1730993A006EB775 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 441F217D1730993A006EB775 /* UIKit.framework */; };
+		441F21801730993A006EB775 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 441F217F1730993A006EB775 /* Foundation.framework */; };
+		441F21821730993A006EB775 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 441F21811730993A006EB775 /* CoreGraphics.framework */; };
+		441F21881730993A006EB775 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 441F21861730993A006EB775 /* InfoPlist.strings */; };
+		441F218A1730993A006EB775 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 441F21891730993A006EB775 /* main.m */; };
+		441F218E1730993A006EB775 /* WatchAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 441F218D1730993A006EB775 /* WatchAppDelegate.m */; };
+		441F21901730993A006EB775 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 441F218F1730993A006EB775 /* Default.png */; };
+		441F21921730993A006EB775 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 441F21911730993A006EB775 /* Default@2x.png */; };
+		441F21941730993A006EB775 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 441F21931730993A006EB775 /* Default-568h@2x.png */; };
+		441F21971730993A006EB775 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 441F21951730993A006EB775 /* MainStoryboard.storyboard */; };
+		441F219A1730993A006EB775 /* WatchMasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 441F21991730993A006EB775 /* WatchMasterViewController.m */; };
+		441F219D1730993A006EB775 /* WatchDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 441F219C1730993A006EB775 /* WatchDetailViewController.m */; };
+		441F21A517309AF4006EB775 /* AddStopWatchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 441F21A417309AF4006EB775 /* AddStopWatchViewController.m */; };
+		441F21A817309B6D006EB775 /* StopWatch.m in Sources */ = {isa = PBXBuildFile; fileRef = 441F21A717309B6D006EB775 /* StopWatch.m */; };
+		441F21AB17309D47006EB775 /* StopWatchDataController.m in Sources */ = {isa = PBXBuildFile; fileRef = 441F21AA17309D47006EB775 /* StopWatchDataController.m */; };
+		442A6614173225CA001DCD70 /* DIGITAL.TXT in Resources */ = {isa = PBXBuildFile; fileRef = 442A6612173225CA001DCD70 /* DIGITAL.TXT */; };
+		442A6615173225CA001DCD70 /* DS-DIGI.TTF in Resources */ = {isa = PBXBuildFile; fileRef = 442A6613173225CA001DCD70 /* DS-DIGI.TTF */; };
+		442A661F173231EF001DCD70 /* greensendButton-highlight.png in Resources */ = {isa = PBXBuildFile; fileRef = 442A661D173231EE001DCD70 /* greensendButton-highlight.png */; };
+		442A6620173231EF001DCD70 /* greensendButton-highlight@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 442A661E173231EE001DCD70 /* greensendButton-highlight@2x.png */; };
+		44DD9CA51731A9CA006DB235 /* StopWatchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 44DD9CA41731A9CA006DB235 /* StopWatchViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		441F21791730993A006EB775 /* Watch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Watch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		441F217D1730993A006EB775 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		441F217F1730993A006EB775 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		441F21811730993A006EB775 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		441F21851730993A006EB775 /* Watch-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Watch-Info.plist"; sourceTree = "<group>"; };
+		441F21871730993A006EB775 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		441F21891730993A006EB775 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		441F218B1730993A006EB775 /* Watch-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Watch-Prefix.pch"; sourceTree = "<group>"; };
+		441F218C1730993A006EB775 /* WatchAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WatchAppDelegate.h; sourceTree = "<group>"; };
+		441F218D1730993A006EB775 /* WatchAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WatchAppDelegate.m; sourceTree = "<group>"; };
+		441F218F1730993A006EB775 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		441F21911730993A006EB775 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		441F21931730993A006EB775 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		441F21961730993A006EB775 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		441F21981730993A006EB775 /* WatchMasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WatchMasterViewController.h; sourceTree = "<group>"; };
+		441F21991730993A006EB775 /* WatchMasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WatchMasterViewController.m; sourceTree = "<group>"; };
+		441F219B1730993A006EB775 /* WatchDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WatchDetailViewController.h; sourceTree = "<group>"; };
+		441F219C1730993A006EB775 /* WatchDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WatchDetailViewController.m; sourceTree = "<group>"; };
+		441F21A317309AF4006EB775 /* AddStopWatchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddStopWatchViewController.h; sourceTree = "<group>"; };
+		441F21A417309AF4006EB775 /* AddStopWatchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddStopWatchViewController.m; sourceTree = "<group>"; };
+		441F21A617309B6D006EB775 /* StopWatch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StopWatch.h; sourceTree = "<group>"; };
+		441F21A717309B6D006EB775 /* StopWatch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StopWatch.m; sourceTree = "<group>"; };
+		441F21A917309D47006EB775 /* StopWatchDataController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StopWatchDataController.h; sourceTree = "<group>"; };
+		441F21AA17309D47006EB775 /* StopWatchDataController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StopWatchDataController.m; sourceTree = "<group>"; };
+		442A6612173225CA001DCD70 /* DIGITAL.TXT */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = DIGITAL.TXT; sourceTree = "<group>"; };
+		442A6613173225CA001DCD70 /* DS-DIGI.TTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DS-DIGI.TTF"; sourceTree = "<group>"; };
+		442A661D173231EE001DCD70 /* greensendButton-highlight.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "greensendButton-highlight.png"; sourceTree = "<group>"; };
+		442A661E173231EE001DCD70 /* greensendButton-highlight@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "greensendButton-highlight@2x.png"; sourceTree = "<group>"; };
+		44DD9CA31731A9CA006DB235 /* StopWatchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StopWatchViewController.h; sourceTree = "<group>"; };
+		44DD9CA41731A9CA006DB235 /* StopWatchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StopWatchViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		441F21761730993A006EB775 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				441F217E1730993A006EB775 /* UIKit.framework in Frameworks */,
+				441F21801730993A006EB775 /* Foundation.framework in Frameworks */,
+				441F21821730993A006EB775 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		441F216E1730993A006EB775 = {
+			isa = PBXGroup;
+			children = (
+				441F21831730993A006EB775 /* Watch */,
+				441F217C1730993A006EB775 /* Frameworks */,
+				441F217A1730993A006EB775 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		441F217A1730993A006EB775 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				441F21791730993A006EB775 /* Watch.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		441F217C1730993A006EB775 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				441F217D1730993A006EB775 /* UIKit.framework */,
+				441F217F1730993A006EB775 /* Foundation.framework */,
+				441F21811730993A006EB775 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		441F21831730993A006EB775 /* Watch */ = {
+			isa = PBXGroup;
+			children = (
+				441F218C1730993A006EB775 /* WatchAppDelegate.h */,
+				441F218D1730993A006EB775 /* WatchAppDelegate.m */,
+				441F21951730993A006EB775 /* MainStoryboard.storyboard */,
+				44DD9CA31731A9CA006DB235 /* StopWatchViewController.h */,
+				44DD9CA41731A9CA006DB235 /* StopWatchViewController.m */,
+				441F21981730993A006EB775 /* WatchMasterViewController.h */,
+				441F21991730993A006EB775 /* WatchMasterViewController.m */,
+				441F21A317309AF4006EB775 /* AddStopWatchViewController.h */,
+				441F21A417309AF4006EB775 /* AddStopWatchViewController.m */,
+				441F21A617309B6D006EB775 /* StopWatch.h */,
+				441F21A717309B6D006EB775 /* StopWatch.m */,
+				441F219B1730993A006EB775 /* WatchDetailViewController.h */,
+				441F219C1730993A006EB775 /* WatchDetailViewController.m */,
+				441F21A917309D47006EB775 /* StopWatchDataController.h */,
+				441F21AA17309D47006EB775 /* StopWatchDataController.m */,
+				441F21841730993A006EB775 /* Supporting Files */,
+			);
+			path = Watch;
+			sourceTree = "<group>";
+		};
+		441F21841730993A006EB775 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				442A661D173231EE001DCD70 /* greensendButton-highlight.png */,
+				442A661E173231EE001DCD70 /* greensendButton-highlight@2x.png */,
+				442A6612173225CA001DCD70 /* DIGITAL.TXT */,
+				442A6613173225CA001DCD70 /* DS-DIGI.TTF */,
+				441F21851730993A006EB775 /* Watch-Info.plist */,
+				441F21861730993A006EB775 /* InfoPlist.strings */,
+				441F21891730993A006EB775 /* main.m */,
+				441F218B1730993A006EB775 /* Watch-Prefix.pch */,
+				441F218F1730993A006EB775 /* Default.png */,
+				441F21911730993A006EB775 /* Default@2x.png */,
+				441F21931730993A006EB775 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		441F21781730993A006EB775 /* Watch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 441F21A01730993A006EB775 /* Build configuration list for PBXNativeTarget "Watch" */;
+			buildPhases = (
+				441F21751730993A006EB775 /* Sources */,
+				441F21761730993A006EB775 /* Frameworks */,
+				441F21771730993A006EB775 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Watch;
+			productName = Watch;
+			productReference = 441F21791730993A006EB775 /* Watch.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		441F21701730993A006EB775 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = Watch;
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Jacob Ulrich";
+			};
+			buildConfigurationList = 441F21731730993A006EB775 /* Build configuration list for PBXProject "Watch" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 441F216E1730993A006EB775;
+			productRefGroup = 441F217A1730993A006EB775 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				441F21781730993A006EB775 /* Watch */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		441F21771730993A006EB775 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				441F21881730993A006EB775 /* InfoPlist.strings in Resources */,
+				441F21901730993A006EB775 /* Default.png in Resources */,
+				441F21921730993A006EB775 /* Default@2x.png in Resources */,
+				441F21941730993A006EB775 /* Default-568h@2x.png in Resources */,
+				441F21971730993A006EB775 /* MainStoryboard.storyboard in Resources */,
+				442A6614173225CA001DCD70 /* DIGITAL.TXT in Resources */,
+				442A6615173225CA001DCD70 /* DS-DIGI.TTF in Resources */,
+				442A661F173231EF001DCD70 /* greensendButton-highlight.png in Resources */,
+				442A6620173231EF001DCD70 /* greensendButton-highlight@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		441F21751730993A006EB775 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				441F218A1730993A006EB775 /* main.m in Sources */,
+				441F218E1730993A006EB775 /* WatchAppDelegate.m in Sources */,
+				441F219A1730993A006EB775 /* WatchMasterViewController.m in Sources */,
+				441F219D1730993A006EB775 /* WatchDetailViewController.m in Sources */,
+				441F21A517309AF4006EB775 /* AddStopWatchViewController.m in Sources */,
+				441F21A817309B6D006EB775 /* StopWatch.m in Sources */,
+				441F21AB17309D47006EB775 /* StopWatchDataController.m in Sources */,
+				44DD9CA51731A9CA006DB235 /* StopWatchViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		441F21861730993A006EB775 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				441F21871730993A006EB775 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		441F21951730993A006EB775 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				441F21961730993A006EB775 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		441F219E1730993A006EB775 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		441F219F1730993A006EB775 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		441F21A11730993A006EB775 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Watch/Watch-Prefix.pch";
+				INFOPLIST_FILE = "Watch/Watch-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		441F21A21730993A006EB775 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Watch/Watch-Prefix.pch";
+				INFOPLIST_FILE = "Watch/Watch-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		441F21731730993A006EB775 /* Build configuration list for PBXProject "Watch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				441F219E1730993A006EB775 /* Debug */,
+				441F219F1730993A006EB775 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		441F21A01730993A006EB775 /* Build configuration list for PBXNativeTarget "Watch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				441F21A11730993A006EB775 /* Debug */,
+				441F21A21730993A006EB775 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 441F21701730993A006EB775 /* Project object */;
+}

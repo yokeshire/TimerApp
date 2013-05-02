@@ -1,8 +1,8 @@
 //
 //  StopWatchViewController.h
-//  watch
+//  Watch
 //
-//  Created by Jacob Ulrich on 2/26/13.
+//  Created by Jacob Ulrich on 5/1/13.
 //  Copyright (c) 2013 Jacob Ulrich. All rights reserved.
 //
 
@@ -12,7 +12,7 @@
 {
     //IBOutlet UILabel *stopWatchLabel;
     bool isRunning;
-    NSTimer *stopWatchTimer; 
+    NSTimer *stopWatchTimer;
     NSDate *startDate;
     NSTimeInterval totalTimeInterval;
     NSTimeInterval timeInterval;

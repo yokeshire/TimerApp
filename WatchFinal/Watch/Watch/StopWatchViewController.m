@@ -1,8 +1,8 @@
 //
 //  StopWatchViewController.m
-//  watch
+//  Watch
 //
-//  Created by Jacob Ulrich on 2/26/13.
+//  Created by Jacob Ulrich on 5/1/13.
 //  Copyright (c) 2013 Jacob Ulrich. All rights reserved.
 //
 
@@ -16,7 +16,9 @@
 
 - (void)viewDidLoad
 {
+    //[_stopWatchLabel setFont:[UIFont fontWithName:@"DS-Digital" size:84]];
     [super viewDidLoad];
+    [_stopWatchLabel setFont:[UIFont fontWithName:@"DS-Digital" size:60]];
 	// Do any additional setup after loading the view, typically from a nib.
 }
 
@@ -30,7 +32,7 @@
     NSDate *timerDate = [NSDate dateWithTimeIntervalSince1970:timeInterval];
     
     NSDateFormatter *dateFormatter = [[NSDateFormatter alloc] init];
-    [dateFormatter setDateFormat:@"HH:mm:ss:S"];
+    [dateFormatter setDateFormat:@"HH:mm:ss.S"];
     [dateFormatter setTimeZone:[NSTimeZone timeZoneForSecondsFromGMT:0.0]];
     NSString *timeString=[dateFormatter stringFromDate:timerDate];
     _stopWatchLabel.text = timeString;
@@ -49,7 +51,7 @@
     {
         isRunning = true;
         startDate = [NSDate date];
-        [sender setTitle:@"STOP" forState:UIControlStateNormal];
+        [sender setTitle:@"Stop" forState:UIControlStateNormal];
         stopWatchTimer = [NSTimer scheduledTimerWithTimeInterval:1.0/10.0 target:self selector:@selector(updateTimer)userInfo:nil repeats:YES];
     }
     else
@@ -62,7 +64,7 @@
 }
 
 - (IBAction)Reset:(UIButton *)sender {
-    _stopWatchLabel.text = @"00:00:00:0";
+    _stopWatchLabel.text = @"00:00:00.0";
     totalTimeInterval = 0;
 }
 @end

@@ -1,14 +1,14 @@
 //
-//  StopWatchAppDelegate.m
-//  watch
+//  WatchAppDelegate.m
+//  Watch
 //
-//  Created by Jacob Ulrich on 2/26/13.
+//  Created by Jacob Ulrich on 4/30/13.
 //  Copyright (c) 2013 Jacob Ulrich. All rights reserved.
 //
 
-#import "StopWatchAppDelegate.h"
+#import "WatchAppDelegate.h"
 
-@implementation StopWatchAppDelegate
+@implementation WatchAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
